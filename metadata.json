@@ -1,0 +1,6 @@
+{
+  "name": "AuditScan Pro",
+  "description": "Aplicación de auditoría de inventario offline-first con escaneo QR y segmentación por ciudad.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": []
+}

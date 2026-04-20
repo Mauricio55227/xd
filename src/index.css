@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg-app: #F8FAFC;
+  --color-ink: #0F172A;
+  --color-line: #E2E8F0;
+  --color-brand: #4F46E5;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-bg-app);
+    color: var(--color-ink);
+    font-family: 'Inter', ui-sans-serif, system-ui, -apple-system, sans-serif;
+  }
+}
+
+.sleek-card {
+  background: white;
+  border: 1px solid var(--color-line);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  border-radius: 1rem;
+}
+
+.data-row {
+  display: grid;
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid #F1F5F9;
+  transition: all 0.2s ease;
+  align-items: center;
+}
+
+.col-header {
+  font-size: 10px;
+  font-weight: 700;
+  color: #94A3B8;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.data-value {
+  font-family: var(--font-mono);
+  letter-spacing: -0.02em;
+}
+
+.sidebar-label {
+  display: block;
+  font-size: 11px;
+  font-weight: 700;
+  color: #94A3B8;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.5rem;
+}
+
+
